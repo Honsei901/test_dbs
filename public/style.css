@@ -55,3 +55,105 @@ body {
 .input-section button {
   padding: 3px 10px;
 }
+
+#dialogNowProcessing {
+  background-color: #fecb2f;
+  text-align: center;
+}
+
+.dhl-header {
+  background-color: #fecb2f;
+  text-align: center;
+}
+
+#awbNo {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#exchangeCd {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#impCode {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#impCodeS {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#discMark {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#impTel {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#impZip {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#impName {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#impAddr01 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#itemCode {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#countCd {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#countPr {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#quant1 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#quant1Cd {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#originCountry {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#origName {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#origAd01 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#accountNum {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#ips1 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#ips2 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#ips3 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#ips4 {
+  background-color: rgba(255, 0, 0, 0.194);
+}
+
+#valuation {
+  background-color: rgba(255, 0, 0, 0.194);
+}
