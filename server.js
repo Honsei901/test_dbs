@@ -34,4 +34,4 @@ app.post('/api/v1/thread', async (req, res) => {
   }
 });
 
-app.listen(PORT, console.log('server running'));
+app.listen(process.env.PORT || PORT, console.log('server running'));
