@@ -36,19 +36,20 @@ const getAllThreads = async () => {
 getAllThreads();
 
 //Post method
-inputTextDOM.addEventListener('change', (e) => {
-  inputText = e.target.value;
-});
+// inputTextDOM.addEventListener('change', (e) => {
+//   inputText = e.target.value;
+// });
 
-inputContentDOM.addEventListener('change', (e) => {
-  inputContentText = e.target.value;
-});
+// inputContentDOM.addEventListener('change', (e) => {
+//   inputContentText = e.target.value;
+// });
 
 formDOM.addEventListener('submit', async (e) => {
   e.preventDefault();
+  inputText = inputTextDOM.value;
+  inputContentText = inputContentDOM.value;
 
   if (inputText && inputContentText) {
-    console.log('add data');
     try {
       await axios
         .post('/api/v1/thread', {
@@ -60,4 +61,7 @@ formDOM.addEventListener('submit', async (e) => {
       console.log(err);
     }
   }
+
+  inputTextDOM.value = null;
+  inputContentDOM.value = null;
 });
